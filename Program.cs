@@ -6,6 +6,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            // Not hello world
+            Console.WriteLine("Please state your full name!");
+            var fullname = Console.ReadLine();
+            Console.WriteLine($"Welcome to Bangazon {fullname}");
+
+            // Accepting user Input
+            // Number multiplier
             Console.WriteLine("Enter strings seperated with a comma");
             var stringInput = Console.ReadLine();
             var variables = stringInput.Split(",");
